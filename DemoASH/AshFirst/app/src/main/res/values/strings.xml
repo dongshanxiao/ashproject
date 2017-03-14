@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AshFirst</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="buttonz">click</string>
+    <string name="buttonz2">锁屏</string>
+    <string name="button_add_label">click</string>
+    <string name="stock_sh_name">SH</string>
+    <string name="stock_sz_name">SZ</string>
+    <string name="stock_chuang_name">CH</string>
+</resources>
