@@ -65,11 +65,11 @@ public class HomePage extends FragmentActivity {
     private void init(){
 
         fragmentList = new ArrayList<Fragment>();
-        home = new Home();
         analysis = new Analysis();
+        home = new Home();
         details = new Details();
-        fragmentList.add(home);
         fragmentList.add(analysis);
+        fragmentList.add(home);
         fragmentList.add(details);
 
         viewPager = (ViewPager)findViewById(R.id.viewpager);
@@ -89,7 +89,7 @@ public class HomePage extends FragmentActivity {
                 //在这里做下fragment的更新
                 super.notifyDataSetChanged();
             }
-        })//;
+        });
 
         viewPager.setCurrentItem(1);
 
